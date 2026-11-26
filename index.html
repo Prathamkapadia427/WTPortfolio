@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080914">
+  <meta name="description" content="Pratham Kapadia — Web Technologies portfolio, projects, skills, and contact.">
+  <title>Pratham Kapadia | Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="page-grid" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Pratham home"><span class="brand-mark">P<span>.</span></span><span>PRATHAM<span class="brand-muted"> / PORTFOLIO</span></span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    <div class="theme-picker" aria-label="Choose colour theme"><span>THEME</span><button type="button" class="theme-dot active" data-theme-choice="neon" aria-label="Dark neon" title="Dark neon"></button><button type="button" class="theme-dot emerald" data-theme-choice="emerald" aria-label="Emerald and gold" title="Emerald and gold"></button><button type="button" class="theme-dot sunset" data-theme-choice="sunset" aria-label="Sunset" title="Sunset"></button><button type="button" class="theme-dot rose" data-theme-choice="rose" aria-label="Rose and violet" title="Rose and violet"></button></div><nav id="main-nav" class="main-nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> WEB TECHNOLOGIES · STUDENT PORTFOLIO</p>
+        <h1>Ideas into<br><span class="gradient-text">digital reality.</span></h1>
+        <p class="hero-description">Hey, I'm <strong>Pratham Kapadia</strong> — a student exploring the creative side of the web through code, design, and interactive experiences.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↘</span></a><a class="text-link" href="#contact">Let's connect <span>↗</span></a></div>
+        <div class="hero-meta"><span><i></i> HTML · CSS · JavaScript</span><span>BASED IN GUJARAT, INDIA</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Decorative neon orbit graphic">
+        <div class="art-label label-top">FIG. 01 <span>— CREATIVE ENERGY</span></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="core profile-core"><img src="assets/profile.png" alt="Portrait of Pratham Kapadia"><span class="core-ring"></span></div>
+        <div class="floating-chip chip-code">&lt;/&gt; <span>CODE</span></div>
+        <div class="floating-chip chip-design"><span class="chip-spark">✳</span> DESIGN</div>
+        <div class="art-cross cross-one">+</div><div class="art-cross cross-two">✳</div>
+        <div class="art-label label-bottom">CREATIVITY / <span>IN PROGRESS</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap intro-section" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Curious by nature.<br><span class="muted-text">Built to create.</span></h2></div>
+      <div class="about-content reveal">
+        <p class="about-lead">I believe a good website should feel as good as it looks.</p>
+        <p>I'm learning to bring ideas to life with the core technologies of the web. I enjoy experimenting with layouts, visual details, and small interactions that make digital experiences feel more human.</p>
+        <div class="info-grid"><div><span class="info-label">CURRENTLY STUDYING AT</span><strong>ITM SLS Baroda University</strong></div><div><span class="info-label">FOCUS</span><strong>Web Design & Development</strong></div></div>
+      </div>
+    </section>
+
+    <section class="section-wrap skills-section" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">02 / MY TOOLKIT</p><h2>Small stack.<br><span class="muted-text">Big possibilities.</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon html-icon">5</div><div><h3>HTML5</h3><p>Semantic structure and accessible content.</p></div><span class="skill-number">01</span></article>
+        <article class="skill-card reveal"><div class="skill-icon css-icon">✳</div><div><h3>CSS3</h3><p>Responsive layouts, motion, and visual polish.</p></div><span class="skill-number">02</span></article>
+        <article class="skill-card reveal"><div class="skill-icon js-icon">JS</div><div><h3>JavaScript</h3><p>Interactions and dynamic experiences.</p></div><span class="skill-number">03</span></article>
+        <article class="skill-card reveal"><div class="skill-icon learn-icon">↗</div><div><h3>Always learning</h3><p>Trying new techniques, one project at a time.</p></div><span class="skill-number">04</span></article>
+      </div>
+      <p class="small-note">Skills shown are the technologies this portfolio is built with. Update this section as you learn more.</p>
+    </section>
+
+    <section class="section-wrap projects-section" id="projects">
+      <div class="section-heading section-heading-row reveal"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects in<br><span class="muted-text">the making.</span></h2></div><span class="section-side-note">A STARTING COLLECTION<br>MORE COMING SOON ↘</span></div>
+      <div class="project-grid">
+        <a class="project-card project-feature reveal project-link" href="https://prathamkapadia427.github.io/Velocity-Rush-Car-Racing-Game/" target="_blank" rel="noopener noreferrer">
+          <div class="project-visual visual-racing"><div class="race-road"><i></i><i></i><i></i><b></b></div><span class="visual-tag">01 / GAME DEVELOPMENT</span><span class="race-title">VELOCITY<br><strong>RUSH</strong></span></div>
+          <div class="project-info"><div><p class="project-type">HTML · CSS · JAVASCRIPT</p><h3>Velocity Rush — Car Racing</h3><p>An arcade-style racing game built for the browser, with fast gameplay and visual effects.</p></div><span class="project-arrow">↗</span></div>
+        </a>
+        <a class="project-card reveal project-link" href="https://prathamkapadia427.github.io/Tic-Tac-Toe/" target="_blank" rel="noopener noreferrer">
+          <div class="project-visual visual-tictactoe"><div class="tic-grid"><span>×</span><span>○</span><span>×</span><span>○</span><span>×</span><span>○</span><span>○</span><span>×</span><span>○</span></div><span class="visual-tag">02 / INTERACTIVE GAME</span></div>
+          <div class="project-info"><div><p class="project-type">HTML · CSS · JAVASCRIPT</p><h3>Tic-Tac-Toe</h3><p>A classic two-player game with a clean interface and interactive gameplay.</p></div><span class="project-arrow">↗</span></div>
+        </a>
+        <a class="project-card reveal project-link" href="https://prathamkapadia427.github.io/WT-Portfolio/#projects" target="_blank" rel="noopener noreferrer">
+          <div class="project-visual visual-code"><div class="code-lines"><span><b>01</b> const <em>portfolio</em> = "Pratham";</span><span><b>02</b> function <em>create</em>() {</span><span><b>03</b> &nbsp; return creativity;</span><span><b>04</b> }</span><span><b>05</b> <strong>buildPortfolio();</strong></span></div><span class="visual-tag">03 / WEB TECHNOLOGIES</span></div>
+          <div class="project-info"><div><p class="project-type">HTML · CSS · JAVASCRIPT</p><h3>WT Portfolio</h3><p>A web portfolio project presenting my work, skills, and learning journey.</p></div><span class="project-arrow">↗</span></div>
+        </a>
+      </div>
+      <p class="small-note">Select any project card to open its live GitHub Pages website ↗</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="section-wrap contact-inner reveal"><p class="eyebrow">04 / YOUR TURN</p><h2>Have an idea?<br><span class="gradient-text">Let's build it.</span></h2><p>I'm growing my skills and always open to learning, collaborating, and talking about creative ideas.</p><a class="button button-primary" href="https://github.com/Prathamkapadia427" target="_blank" rel="noopener noreferrer">Find me on GitHub <span>↗</span></a><p class="contact-hint">Want to add your email or social links? Update the contact section in <code>index.html</code>.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">P<span>.</span></span><span>PRATHAM<span class="brand-muted"> / PORTFOLIO</span></span></a><p>DESIGNED & BUILT WITH HTML, CSS & JAVASCRIPT</p><a href="#home" class="back-top">BACK TO TOP ↑</a><span class="copyright">© <span id="year"></span> PRATHAM KAPADIA</span></footer>
+</body>
+</html>
